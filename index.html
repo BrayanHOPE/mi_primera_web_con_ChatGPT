@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWorld - Bienvenido</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PetWorld</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenido a PetWorld</h2>
+            <p>Descubre una amplia gama de productos y servicios para tu mascota.</p>
+            <a href="#" class="cta-button">Explorar Ahora</a>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <h2>Productos Destacados</h2>
+            <!-- Aquí podrían ir los productos destacados -->
+            <div class="product-grid">
+                <div class="product">
+                    <div class="product-image" onclick="toggleDescription(this)">
+                        <img src="https://st2.depositphotos.com/3378121/5193/i/450/depositphotos_51933801-stock-photo-labrador-puppies-in-a-basket.jpg" alt="Producto 1">
+                        <div class="description">
+                            <p>Descripción detallada del Producto 1.</p>
+                        </div>
+                    </div>
+                    <h3>Producto 3</h3>
+                </div>
+                <div class="product">
+                    <div class="product-image" onclick="toggleDescription(this)">
+                    <img src="https://st2.depositphotos.com/3378121/5193/i/450/depositphotos_51933801-stock-photo-labrador-puppies-in-a-basket.jpg" alt="Producto 2">
+                    <div class="description">
+                        <p>Descripción detallada del Producto 1.</p>
+                    </div>
+                    </div>
+                    <h3>Producto 2</h3>
+                </div>
+                <div class="product">
+                    <div class="product-image" onclick="toggleDescription(this)">
+                    <img src="https://st2.depositphotos.com/3378121/5193/i/450/depositphotos_51933801-stock-photo-labrador-puppies-in-a-basket.jpg" alt="Producto 2">
+                    <div class="description">
+                        <p>Descripción detallada del Producto 1.</p>
+                    </div>
+                    </div>
+                    <h3>Producto 2</h3>
+                </div>
+                
+                <!-- Agrega más productos aquí -->
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <img src="https://media.istockphoto.com/id/1393558296/es/foto/perro-ba%C3%B1%C3%A1ndose-en-casa-n.webp?b=1&s=170667a&w=0&k=20&c=gIii85IZFYBCLf7vONud685Iq90BJ6994T1Q-cWWHnA=" alt="Baño y Peluquería">
+                    <h3>Baño y Peluquería</h3>
+                    <p>Ofrecemos servicios de baño profesional, cortes de pelo, cepillado, y cuidado de uñas para perros y gatos.</p>
+                </div>
+                <div class="service">
+                    <img src="https://media.istockphoto.com/id/1306848034/es/foto/cuidado-del-concepto-de-mascota-con-golpes-de-mujer-y-masajes-vientre-de-perro-dom%C3%A9stico-en-el.webp?b=1&s=170667a&w=0&k=20&c=yAUlJ25eDI8xJC1dIgUWNlyFmoElRK54c0AHG1_aA6I=" alt="Masajes y Terapia">
+                    <h3>Masajes y Terapia</h3>
+                    <p>Proporcionamos masajes relajantes y terapia de rehabilitación para mascotas que necesitan aliviar el estrés y tensiones.</p>
+                </div>
+                <div class="service">
+                    <img src="https://img.freepik.com/fotos-premium/perro-salon-belleza-corte-pelo-tijeras-peine-mascota-recibe-tratamientos-belleza-salon-belleza-perros_170532-4057.jpg" alt="Tratamientos de Belleza">
+                    <h3>Tratamientos de Belleza</h3>
+                    <p>Ofrecemos tratamientos faciales, limpieza de oídos, desparasitación, y aplicaciones de productos cosméticos para mejorar la apariencia y salud de la piel y el pelaje.</p>
+                </div>
+                <div class="service">
+                    <img src="https://grupoyagu.com/wp-content/uploads/2022/04/higiene-dental.jpg" alt="Cuidado Dental">
+                    <h3>Cuidado Dental</h3>
+                    <p>Proporcionamos limpieza dental profesional, tratamiento de enfermedades bucales, y asesoramiento sobre cuidado dental en el hogar para mantener la salud oral de las mascotas.</p>
+                </div>
+                <div class="service">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTafAjhB-0hLcZF9JMul0DsVdLQYwVEhTLgPQ&usqp=CAU" alt="Sesiones de Bienestar">
+                    <h3>Sesiones de Bienestar</h3>
+                    <p>Organizamos sesiones de bienestar para mascotas, que incluyen yoga para perros, acupuntura, aromaterapia, y meditación para promover la relajación y el equilibrio emocional.</p>
+                </div>
+                <div class="service">
+                    <img src="https://media.istockphoto.com/id/1345672917/es/foto/grupo-de-paseadores-de-perros-trabajando-juntos.jpg?s=612x612&w=0&k=20&c=I-Tm_VwJWN-rtZekO0zHV9DOIySDuvjjZ7LI2LS0MD8=" alt="Transporte y Paseos">
+                    <h3>Transporte y Paseos</h3>
+                    <p>Ofrecemos servicios de transporte de mascotas y paseos personalizados según las necesidades de cada mascota.</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PetWorld. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
